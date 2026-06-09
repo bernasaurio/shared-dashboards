@@ -1,0 +1,19 @@
+# Ignore Mac system files
+.DS_store
+
+# Ignore all text files
+*.txt
+*.pyc
+*.pdf
+*.parquet
+
+# Ignore files related to API keys
+.env
+
+#ignore uploading the venv
+myenv/
+# data/
+
+# ignore plotly frames
+reports/documents_ree_erni/
+
